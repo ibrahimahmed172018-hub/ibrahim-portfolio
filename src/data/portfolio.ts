@@ -43,27 +43,27 @@ export const PORTFOLIO_DATA = {
   personal: {
     name: "Ibrahim",
     avatar: "/ibrahim.jpeg",
-    fullTitle: "AI Software Engineer & Backend Architect",
-    role: "AI Software Engineer",
+    fullTitle: "AI Engineering Student & Backend Developer",
+    role: "AI Engineering Student",
     secondaryRoles: [
+      "AI Engineering Student",
       "Backend Developer",
-      "AI Systems Engineer",
-      "Artificial Intelligence Engineering Student"
+      "AI Systems Engineer"
     ],
-    bio: "AI Software Engineering student at Mansoura National University passionate about architecting scalable backend systems, high-throughput APIs, and integrating state-of-the-art artificial intelligence models into production-ready software systems.",
+    bio: "Current Artificial Intelligence Engineering student at Mansoura National University passionate about architecting scalable backend systems, high-throughput APIs, and integrating state-of-the-art AI models into production-ready software systems.",
     extendedBio: "Based in Egypt, I bridge the gap between heavy computer science theory and modern enterprise software engineering. My focus centers on high-concurrency backend services, microservices architecture, retrieval-augmented generation (RAG), and computer vision applications.",
     location: "Tanta, Egypt",
     university: "Mansoura National University",
     faculty: "Faculty of Engineering",
     department: "Artificial Intelligence Engineering",
-    degree: "B.Sc. in Artificial Intelligence Engineering",
+    degree: "AI Engineering Student (Undergraduate)",
     email: "ibrahimahmed172018@gmail.com",
     github: "https://github.com/ibrahimahmed172018-hub",
     linkedin: "https://www.linkedin.com/in/ebrahim-abd-el-ghany-56518b389",
     whatsapp: "https://wa.me/201023678882",
     phone: "+201023678882",
     twitter: "",
-    status: "Open for AI & Backend Engineering Roles",
+    status: "Open for Internships & AI/Backend Engineering Roles",
     languages: [
       { name: "Arabic", level: "Native / Bilingual" },
       { name: "English", level: "Professional (B2 Level)" }
