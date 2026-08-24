@@ -58,6 +58,7 @@ export function ProjectsSection() {
                       {project.id === "mbc-dent" && <Cpu className="w-10 h-10 text-blue-400" />}
                       {project.id === "educational-lms" && <Layers className="w-10 h-10 text-blue-400" />}
                       {project.id === "retina" && <Zap className="w-10 h-10 text-blue-400" />}
+                      {project.id === "ismail-portfolio" && <Sparkles className="w-10 h-10 text-rose-400" />}
                     </div>
 
                     <div className="space-y-1">

@@ -2,7 +2,7 @@ export interface Project {
   id: string;
   title: string;
   subtitle: string;
-  category: 'AI & Vision' | 'Enterprise SaaS' | 'EdTech';
+  category: 'AI & Vision' | 'Enterprise SaaS' | 'EdTech' | 'Creative & Web';
   description: string;
   fullDescription: string;
   image: string;
@@ -153,6 +153,34 @@ export const PORTFOLIO_DATA = {
       ],
       githubUrl: "https://github.com/ibrahimahmed172018-hub/retina-lms",
       liveUrl: "https://retina-phi.vercel.app/",
+      featured: true
+    },
+    {
+      id: "ismail-portfolio",
+      title: "Ismail Mohamed Portfolio",
+      subtitle: "Ultra-Fast 60FPS Creative Director & Design Exhibition Platform",
+      category: "Creative & Web",
+      description: "A dark-themed portfolio and exhibition platform for Senior Graphic Designer Ismail Mohamed, featuring 60FPS Bezier canvas animations, interactive PDF reader, high-speed WebP asset streaming, and Resend email integration.",
+      fullDescription: "Ismail Mohamed Portfolio (ismail-port) is an interactive, high-performance web platform engineered for Senior Creative Director Ismail Mohamed (Founder of Retina Creative Agency). Built with Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS, it streams 72+ authentic branding, social media, and packaging artworks with instantaneous WebP loading (<10ms load times), hardware-accelerated Bezier spline canvas animations, an in-app interactive PDF guide reader, and resilient Resend email API integration.",
+      image: "/projects/ismail-portfolio.png",
+      technologies: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML5 Canvas", "Sharp", "WebP", "Resend API"],
+      challenges: [
+        "Handling 70+ massive high-resolution graphic design files (150MB+ raw) without causing mobile network lag or memory bottlenecks.",
+        "Designing a hardware-accelerated background animation replicating live Adobe Photoshop vector tools (Bezier splines, anchor points, pen nibs) running at 60 FPS.",
+        "Implementing an in-app interactive PDF lightbox viewer for client brand strategy documents alongside a reliable automated email dispatch pipeline."
+      ],
+      solutions: [
+        "Engineered a batch compression pipeline using Sharp to convert all 72 artworks into modern WebP format (<60KB each), reducing total gallery bandwidth by 95% with zero quality loss.",
+        "Implemented an adaptive HTML5 Canvas with frame-rate throttling (60 FPS on desktop, lightweight on mobile) and dormant touch physics.",
+        "Built a resilient Next.js Route Handler for contact dispatches with dual-fallback delivery, and an embedded PDF reader with fullscreen and zoom controls."
+      ],
+      metrics: [
+        "72+ Artworks Streamed",
+        "< 10ms Asset Load Time",
+        "60 FPS Canvas Splines"
+      ],
+      githubUrl: "https://github.com/ibrahimahmed172018-hub/ismail-port",
+      liveUrl: "https://github.com/ibrahimahmed172018-hub/ismail-port",
       featured: true
     }
   ] as Project[],
