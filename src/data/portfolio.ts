@@ -180,7 +180,7 @@ export const PORTFOLIO_DATA = {
         "60 FPS Canvas Splines"
       ],
       githubUrl: "https://github.com/ibrahimahmed172018-hub/ismail-port",
-      liveUrl: "https://github.com/ibrahimahmed172018-hub/ismail-port",
+      liveUrl: "https://ismailmohamed.vercel.app",
       featured: true
     }
   ] as Project[],
