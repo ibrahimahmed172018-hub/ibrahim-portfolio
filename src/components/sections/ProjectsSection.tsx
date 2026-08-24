@@ -54,10 +54,14 @@ export function ProjectsSection() {
 
                   {/* Abstract Tech Graphic Mockup */}
                   <div className="relative z-10 my-auto text-center py-6 space-y-4">
-                    <div className="w-20 h-20 mx-auto rounded-3xl bg-blue-600/30 border border-blue-400/40 backdrop-blur-xl flex items-center justify-center shadow-2xl shadow-blue-500/50 group-hover:scale-110 transition-transform duration-500">
-                      {project.id === "mbc-dent" && <Cpu className="w-10 h-10 text-blue-400" />}
+                    <div className={`w-20 h-20 mx-auto rounded-3xl backdrop-blur-xl flex items-center justify-center shadow-2xl group-hover:scale-115 transition-transform duration-500 border ${
+                      project.id === "ismail-portfolio"
+                        ? "bg-gradient-to-br from-rose-600/40 to-violet-600/40 border-rose-400/50 shadow-rose-500/50"
+                        : "bg-gradient-to-br from-blue-600/40 to-indigo-600/40 border-blue-400/50 shadow-blue-500/50"
+                    }`}>
+                      {project.id === "mbc-dent" && <Cpu className="w-10 h-10 text-cyan-400" />}
                       {project.id === "educational-lms" && <Layers className="w-10 h-10 text-blue-400" />}
-                      {project.id === "retina" && <Zap className="w-10 h-10 text-blue-400" />}
+                      {project.id === "retina" && <Zap className="w-10 h-10 text-amber-400" />}
                       {project.id === "ismail-portfolio" && <Sparkles className="w-10 h-10 text-rose-400" />}
                     </div>
 
