@@ -72,6 +72,34 @@ export const PORTFOLIO_DATA = {
 
   projects: [
     {
+      id: "game-lounge",
+      title: "Game Lounge",
+      subtitle: "Lossless Games Index & Real-Time Scene Crack Status Platform",
+      category: "Enterprise SaaS",
+      description: "A high-performance gaming index and catalog platform featuring real-time scene crack status tracking, automated FitGirl/DODI 1-click scraper & RAWG enrichment, dynamic P2P/DDL mirror grouping, and Resend-powered passwordless admin security.",
+      fullDescription: "Game Lounge (game-lounge-eg.vercel.app) is an advanced video game indexing platform and live Scene DRM tracking catalog built with Next.js 15, React 19, TypeScript, Tailwind CSS, Supabase (PostgreSQL with Row-Level Security), and Resend API. The platform features an automated 1-Click Repack Importer engine that extracts metadata, download mirrors, and magnet links from scene release feeds, seamlessly enriching games with high-res RAWG media and system requirements.",
+      image: "/projects/game-lounge.png",
+      technologies: ["Next.js 15", "React 19", "TypeScript", "Supabase", "PostgreSQL", "Resend API", "Tailwind CSS", "RAWG API", "Web Scraping"],
+      challenges: [
+        "Building a resilient real-time Scene crack status feed fetching and parsing release data with custom User-Agent rotation and zero-lag dynamic caching.",
+        "Engineering an automated 1-Click scraper that extracts game titles, versions, multi-part DDL links, and BitTorrent magnet URIs from complex HTML structures without server-side memory leaks.",
+        "Designing a multi-tiered passwordless admin authentication system using pure Resend HTML dispatch with master PIN failover, bypassing third-party auth lockouts."
+      ],
+      solutions: [
+        "Implemented high-performance server actions with regex & DOM parsing paired with RAWG API background lookups for instantaneous metadata population.",
+        "Architected a normalized Supabase PostgreSQL database schema with granular RLS policies separating public read access from privileged write actions.",
+        "Engineered a unified download center UI that groups P2P BitTorrent swarms and multi-part cloud mirrors with 1-click batch copy helpers for download managers."
+      ],
+      metrics: [
+        "Live Production Platform",
+        "1-Click Repack Importer",
+        "Real-Time Scene Feeds"
+      ],
+      githubUrl: "https://github.com/ibrahimahmed172018-hub/game-lounge",
+      liveUrl: "https://game-lounge-eg.vercel.app",
+      featured: true
+    },
+    {
       id: "mbc-dent",
       title: "MBC Dent",
       subtitle: "Dental Supplies & Lab Equipment E-Commerce Enterprise",
@@ -383,8 +411,8 @@ export const PORTFOLIO_DATA = {
   ] as ValueProp[],
 
   stats: [
-    { label: "Production Projects", value: "3" },
-    { label: "Code Commits", value: "350+" },
+    { label: "Production Projects", value: "5" },
+    { label: "Code Commits", value: "500+" },
     { label: "API Latency Goal", value: "< 100ms" },
     { label: "Academic Excellence", value: "AI Eng" }
   ]
