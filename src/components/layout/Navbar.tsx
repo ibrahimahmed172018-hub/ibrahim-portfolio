@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Command, Menu, FileText, Sparkles } from "lucide-react";
 import { MobileMenu } from "./MobileMenu";
+import { ThemeToggle } from "../interactive/ThemeToggle";
 import { PORTFOLIO_DATA } from "@/data/portfolio";
 
 interface NavbarProps {
@@ -115,7 +116,8 @@ export function Navbar({ onOpenResume }: NavbarProps) {
               </kbd>
             </button>
 
-
+            {/* Dark / Light Mode Toggle */}
+            <ThemeToggle />
 
             {/* Resume CTA */}
             <button
