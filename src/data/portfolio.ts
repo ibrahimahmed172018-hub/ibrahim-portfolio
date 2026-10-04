@@ -98,6 +98,18 @@ export const PORTFOLIO_DATA = {
       githubUrl: "https://github.com/ibrahimahmed172018-hub/game-lounge",
       liveUrl: "https://game-lounge-eg.vercel.app",
       featured: true
+    },{
+      id: "qaleb-website",
+      title: "Qaleb",
+      subtitle: "Ready web solutions for businesses and startups",
+      category: "Enterprise SaaS",
+      description: "A modern web solutions platform for businesses and startups, offering ready-to-deploy templates, dynamic content management, and responsive design.",
+      fullDescription: "Qaleb (qaleb.site) is a versatile web solutions platform designed to empower businesses and startups with ready-to-use website templates. Built with Next.js 15, React 19, TypeScript, and Tailwind CSS, it provides a seamless experience for deploying responsive websites with dynamic content management capabilities.",
+      image: "/projects/qaleb-website.png",
+      technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel"],
+      challenges: [
+        "Creating a library of responsive templates that cater to various business needs.",
+        "Implementing a dynamic content management system that allows users to easily update their websites.",
     },
     {
       id: "mbc-dent",
