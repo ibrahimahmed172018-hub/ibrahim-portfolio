@@ -48,7 +48,8 @@ export const PORTFOLIO_DATA = {
     secondaryRoles: [
       "AI Engineering Student",
       "Backend Developer",
-      "AI Systems Engineer"
+      "AI Systems Engineer",
+      "owner & ceo in Qaleb agency"
     ],
     bio: "Current Artificial Intelligence Engineering student at Mansoura National University passionate about architecting scalable backend systems, high-throughput APIs, and integrating state-of-the-art AI models into production-ready software systems.",
     extendedBio: "Based in Egypt, I bridge the gap between heavy computer science theory and modern enterprise software engineering. My focus centers on high-concurrency backend services, microservices architecture, retrieval-augmented generation (RAG), and computer vision applications.",
@@ -109,7 +110,8 @@ export const PORTFOLIO_DATA = {
       technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel"],
       challenges: [
         "Creating a library of responsive templates that cater to various business needs.",
-        "Implementing a dynamic content management system that allows users to easily update their websites.",
+        "Implementing a dynamic content management system that allows users to easily update their websites.",]
+      
     },
     {
       id: "mbc-dent",
