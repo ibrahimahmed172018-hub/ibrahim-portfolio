@@ -99,19 +99,33 @@ export const PORTFOLIO_DATA = {
       githubUrl: "https://github.com/ibrahimahmed172018-hub/game-lounge",
       liveUrl: "https://game-lounge-eg.vercel.app",
       featured: true
-    },{
+    {
       id: "qaleb-website",
-      title: "Qaleb",
-      subtitle: "Ready web solutions for businesses and startups",
+      title: "Qaleb | قالب",
+      subtitle: "Ready Web Solutions & Enterprise E-Commerce Platform",
       category: "Enterprise SaaS",
-      description: "A modern web solutions platform for businesses and startups, offering ready-to-deploy templates, dynamic content management, and responsive design.",
-      fullDescription: "Qaleb (qaleb.site) is a versatile web solutions platform designed to empower businesses and startups with ready-to-use website templates. Built with Next.js 15, React 19, TypeScript, and Tailwind CSS, it provides a seamless experience for deploying responsive websites with dynamic content management capabilities.",
+      description: "A production-grade digital marketplace and storefront platform empowering businesses with ready-to-deploy digital stores, customizable template showcases, modular system add-ons, and Resend-powered automated order notifications.",
+      fullDescription: "Qaleb (qaleb.site) is an advanced web solutions agency platform engineered with Next.js 16, React 19, TypeScript, Tailwind CSS, Supabase (PostgreSQL with RLS), and Resend API. The platform delivers responsive e-commerce storefront templates with live interactive previews, custom project inquiry pipelines, multi-channel client communications (WhatsApp & Email), and an administrative dashboard protected with passwordless magic link dispatch, Deno edge function token hashing, and full catalog CRUD management.",
       image: "/projects/qaleb-website.png",
-      technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel"],
+      technologies: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "Resend API", "Edge Functions", "Framer Motion", "Server Actions"],
       challenges: [
-        "Creating a library of responsive templates that cater to various business needs.",
-        "Implementing a dynamic content management system that allows users to easily update their websites.",]
-      
+        "Engineering a robust custom project request workflow with automated SMTP and Resend API failover dispatches without third-party email bottlenecks.",
+        "Building a secure administrative control center featuring dynamic product catalogs, add-on management, and FAQ reordering enforced by strict server-side authorization.",
+        "Overcoming authentication provider rate-limits by architecting a dedicated Supabase Deno Edge Function generating HMAC token hashes and dispatching branded login magic links directly via Resend API."
+      ],
+      solutions: [
+        "Architected Next.js Server Actions with strict Zod validation, dual-channel WhatsApp/Email routing, and automated client inquiry logging.",
+        "Designed normalized Supabase PostgreSQL database schemas with Row-Level Security (RLS) policies, pgcrypto authentication, and revalidated ISR paths for sub-second updates.",
+        "Deployed a serverless Supabase Edge Function with custom redirect URL resolution and direct Resend REST integration for instant, unthrottled admin authentication."
+      ],
+      metrics: [
+        "Live Production Platform",
+        "Custom Resend Edge Auth",
+        "Zero-Delay Admin Workflow"
+      ],
+      githubUrl: "https://github.com/ibrahimahmed172018-hub/qaleb",
+      liveUrl: "https://qaleb.site",
+      featured: true
     },
     {
       id: "mbc-dent",
@@ -425,7 +439,7 @@ export const PORTFOLIO_DATA = {
   ] as ValueProp[],
 
   stats: [
-    { label: "Production Projects", value: "5" },
+    { label: "Production Projects", value: "6" },
     { label: "Code Commits", value: "500+" },
     { label: "API Latency Goal", value: "< 100ms" },
     { label: "Academic Excellence", value: "AI Eng" }
