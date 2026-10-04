@@ -99,6 +99,7 @@ export const PORTFOLIO_DATA = {
       githubUrl: "https://github.com/ibrahimahmed172018-hub/game-lounge",
       liveUrl: "https://game-lounge-eg.vercel.app",
       featured: true
+    },
     {
       id: "qaleb-website",
       title: "Qaleb | قالب",
